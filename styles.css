@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(/sign-up-form/images/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: #e2e2e2;
+}
+
+.banner {
+    display: flex;
+    background-image: url(/sign-up-form/images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: 100vh, 40vw;
+    height: 100vh;
+    width: 40vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+}
+
+.logo{
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1{
+    color: white;
+    font-family: Norse-Bold;
+    font-size: 6rem;
+}
+
+.logo img{
+    height: clamp(90px, 80%, 200px);
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    justify-content: flex-start;
+}
+
+.right .text{
+    padding: 5vh;
+    font-size: 1.5rem;
+}
+
+.right>div:nth-child(2){
+    background-color: white;
+    display: flex;
+    box-shadow: 0 2px 5px black;
+}
+
+.right>div:nth-child(2)>p {
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+#create-account{
+    display: flex;
+    flex-direction: column;
+}
+
+#create-account div {
+    display: flex;
+    flex-direction: column;
+}
